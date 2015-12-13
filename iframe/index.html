@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>iframe</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src="http://code.angularjs.org/1.4.5/angular-route.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<script type="text/javascript" src="src/js/app.js"></script>
+
+</head>
+<body ng-app="app">
+	<div class="container-fluid">
+		<div ng-view class="row">
+		</div>
+		<div class="row">
+			<buntton id="continue" ng-controller="navController"></buntton>
+		</div>
+	</div>
+</body>
+</html>
